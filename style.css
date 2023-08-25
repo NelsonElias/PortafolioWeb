@@ -1,0 +1,145 @@
+/*MODIFICACIÓN DE FONDOS*/
+*{
+    margin: auto;
+
+}
+
+body{
+    background-color:#d8f3dc;
+    color:#40916c;
+    overflow: hidden;
+}
+
+
+header{
+    height: 0px;
+    width: auto;
+    position: relative;
+}
+
+
+/*BARRA DEL NAVEGADOR*/
+
+.menu-nav{
+    list-style:none;
+    float:right;
+    padding-top:30px;
+    padding-right:100px;
+    position:relative;
+    
+}
+
+.menu-nav__item{
+    display:inline-block;
+}
+
+.menu-nav__item a{
+    text-decoration:none;
+    color:#40916c;
+    padding:10px;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.menu-nav__item a::after{
+    cursor:pointer;
+}
+
+.menu-nav__item a:hover{
+    color: white;
+}
+
+.imagenlogo{
+    padding-left:20px;
+    padding-top:14px;
+}
+
+.barra-navegador{
+    border:1px solid #52b788;
+    margin-left: 90px;
+    margin-top: -1px;
+}
+
+/*MODIFICACIÓN CAJAS*/
+
+.caja1{
+    width: 89px;
+    height: 775px;
+    border: 1px solid #52b788;
+    color:#40916c;
+    position: relative;
+    bottom:100px;
+    padding-bottom:20px;
+    margin-top:20px;
+    float: left;
+    top: 0px;
+    margin-top: -1px;
+    
+}
+
+.caja2{
+    width: 760px;
+    height: 650px;
+    border: 1px solid #52b788;
+    color:#40916c;
+    position: relative;
+    top: 74px;
+    float: right;
+    right:225px;
+    padding-bottom:20px;
+    margin-top: 0px;
+}
+
+.caja3{
+    width: 750px;
+    height: 670px;
+    border: 1px solid #52b788;
+    color:#40916c;
+    position: relative;
+    left: 760px;
+    bottom: 598px;
+    float:left;
+
+}
+
+
+/*TEXTOS*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.caja2-texto{
+
+    position: absolute;
+    top:130px;
+    font-family: 'Orbitron', sans-serif;
+    text-align:left;
+    padding-left: 10px;
+}
+
+.caja3-texto{
+    bottom: 200px;
+    padding: 14px;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*MODIFICACIÓN GIF*/
+.otakons{
+    color:#40916c;
+    position: fixed;
+    left: 1300px;
+    bottom: 10px;
+    float:left;
+
+}
+
+.otakons img:hover{
+    cursor: pointer;
+}
+
+/*MODIFICACION REDES SOCIALES*/
+
+.menu2{
+    position: relative;
+    top:200px;
+    right: 40px;
+}
