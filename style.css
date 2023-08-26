@@ -1,4 +1,4 @@
-/*MODIFICACIÓN DE FONDOS*/
+/*****************NO MODIFICAR******************/
 *{
     margin: auto;
 
@@ -18,7 +18,7 @@ header{
 }
 
 
-/*BARRA DEL NAVEGADOR*/
+/*****************BARRRA NAVEGADOR******************/
 
 .menu-nav{
     list-style:none;
@@ -35,7 +35,6 @@ header{
 
 .menu-nav__item a{
     text-decoration:none;
-    color:#40916c;
     padding:10px;
     font-size: 15px;
     font-family: 'Orbitron', sans-serif;
@@ -60,51 +59,57 @@ header{
     margin-top: -1px;
 }
 
-/*MODIFICACIÓN CAJAS*/
+/*****************MODIFICACION DE CAJAS******************/
 
 .caja1{
-    width: 89px;
+    width: 7%;
     height: 775px;
     border: 1px solid #52b788;
-    color:#40916c;
+    background-color:black;
     position: relative;
     bottom:100px;
     padding-bottom:20px;
     margin-top:20px;
     float: left;
     top: 0px;
+    right: 10px;
     margin-top: -1px;
+    max-width:1000px;
     
 }
 
 .caja2{
-    width: 760px;
+    width: 47%;
     height: 650px;
     border: 1px solid #52b788;
     color:#40916c;
     position: relative;
     top: 74px;
-    float: right;
-    right:225px;
+    float:left;
+    left: -11px;
     padding-bottom:20px;
     margin-top: 0px;
+    max-width:1000px;
 }
 
 .caja3{
-    width: 750px;
+    width: 50%;
     height: 670px;
     border: 1px solid #52b788;
     color:#40916c;
     position: relative;
-    left: 760px;
+    left: 742px;
     bottom: 598px;
     float:left;
+    max-width:1000px;
 
 }
 
 
-/*TEXTOS*/
+/*****************TEXTOS******************/ 
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .caja2-texto{
 
@@ -122,24 +127,108 @@ header{
     font-family: 'Orbitron', sans-serif;
 }
 
-/*MODIFICACIÓN GIF*/
+/*****************OTACON GIF******************/
 .otakons{
     color:#40916c;
     position: fixed;
-    left: 1300px;
-    bottom: 10px;
-    float:left;
-
-}
+    left: 1400px;
+    bottom: 45px;
+    float:left;}
 
 .otakons img:hover{
     cursor: pointer;
 }
 
-/*MODIFICACION REDES SOCIALES*/
+/*****************REDES SOCIALES******************/
 
 .menu2{
     position: relative;
     top:200px;
-    right: 40px;
+    left: -26px;
 }
+
+
+/*****************POPUP******************/
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 108%;
+    left: 50%;
+    margin-left: -80px;
+    border: 2px solid black;
+  }
+  
+  /* Popup flecha*/
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 53%;
+    margin-left: -20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  /* POPUP CUANDO LE DAN CLICK */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Animaciones popup*/
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /*****************MODIFICACION LISTA DENTRO DEL POPUP******************/
+
+  
+.lista-menu{
+    list-style: none;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.lista-menu__item{
+    padding-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.lista-menu__item a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.lista-menu__item a:hover{
+    cursor: pointer;
+    color: red;
+}
+

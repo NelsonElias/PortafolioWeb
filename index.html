@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./popup.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <title>Pagina Basica</title>
 </head>
@@ -13,12 +17,6 @@
         <div class="barra-navegador">
             <nav class="menu">
                 <img class="imagenlogo" src="./img/logo.png" width="396px" >
-                <ul class="menu-nav">
-                    <li class="menu-nav__item"><a href="">INICIO</a></li>
-                    <li class="menu-nav__item"><a href="">CONTACTO</a></li>
-                    <li class="menu-nav__item"><a href="">PROJECTO</a></li>
-                    <li class="menu-nav__item"><a href="">BLOG</a></li>
-                </ul>
             </nav>
         </div>
     </header>
@@ -53,28 +51,37 @@
         <div class="caja3">
             <div class="caja3-texto">
                 <div class="caja-fotos">
-                    <img src="./img/javascript.png">
-                    <img src="./img/html.png">
-                    <img src="./img/python.png">
-                    <img src="./img/css.png">
-                    <img src="./img/mysqk.png">
-                    <img src="./img/linux.png">
-                    <img src="./img/git.png">
-                    <img src="./img/node.png">
-                    <img src="./img/kali.png">
-                    <img src="./img/npm.png">
-                </div>
+                    <img src="./img/javascript.png" width="100px">
+                    <img src="./img/html.png"width="100px">
+                    <img src="./img/python.png"width="100px">
+                    <img src="./img/css.png"width="100px">
+                    <img src="./img/mysqk.png"width="160px">
+                    <img src="./img/linux.png"width="100px">
+                    <img src="./img/git.png"width="100px">
+                    <img src="./img/node.png"width="100px">
+                    <img src="./img/kali.png"width="100px">
+                    <img src="./img/npm.png"width="100px">
                 <h1>DIFERENTES TECNOLOGIAS</h1>
                 <p>Lorem ipsum, dolor sit amet 
                 consectetur adipisicing elit. Quibusdam, 
                 sed! Molestias sint recusandae quaerat et necessitatibus maxime porro minima eligendi 
                 odio, autem, repellendus asperiores optio corporis mollitia dicta blanditiis veritatis?</p>
+                </div>
             </div> 
         </div>
 
         <!---------otakon-->
         <div class="otakons">
-            <img src="./img/otakon.gif" width="300px">
+            <div class="popup" onclick="myFunction()">
+                <img src="./img/otakon.gif" width="103px">
+                <span class="popuptext" id="myPopup">
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item"><a href="#" >SOBRE MI</a></li>
+                        <li class="lista-menu__item"><a href="#" >PROJECTOS</a></li>
+                        <li class="lista-menu__item"><a href="#" >BLOG</a></li>
+                    </ul>
+                </span>
+              </div>
         </div>
     </main>
 </body>
